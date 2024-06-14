@@ -1,0 +1,41 @@
+1 1 Word --> Prefix Stem Suffix
+Prefix --> ^^^ Chars
+Prefix --> ^^^
+Stem --> Chars
+Suffix --> Chars $$$
+Suffix --> $$$
+1 1 Chars --> Char Chars
+1 1 Chars --> Char
+1 1 Char --> fffed110
+1 1 Char --> fffedd10
+1 1 Char --> fffeeb10
+1 1 Char --> fffee210
+1 1 Char --> fffeef10
+1 1 Char --> fffedf10
+1 1 Char --> fffedb10
+1 1 Char --> fffee710
+1 1 Char --> fffed210
+1 1 Char --> fffeec10
+1 1 Char --> fffed510
+1 1 Char --> fffede10
+1 1 Char --> fffed710
+1 1 Char --> fffee510
+1 1 Char --> fffed410
+1 1 Char --> fffedc10
+1 1 Char --> fffed610
+1 1 Char --> fffee010
+1 1 Char --> fffed910
+1 1 Char --> fffeed10
+1 1 Char --> fffee110
+1 1 Char --> fffee310
+1 1 Char --> fffee610
+1 1 Char --> fffef010
+1 1 Char --> fffeee10
+1 1 Char --> fffed010
+1 1 Char --> fffed810
+1 1 Char --> fffee910
+1 1 Char --> fffed310
+1 1 Char --> fffeda10
+1 1 Char --> fffee810
+1 1 Char --> fffeea10
+1 1 Char --> fffee410
