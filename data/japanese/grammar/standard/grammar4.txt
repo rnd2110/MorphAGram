@@ -1,0 +1,15 @@
+1 1 Word --> Prefix Stem Suffix
+
+Prefix --> ^^^ SubMorphs
+Prefix --> ^^^
+
+Stem --> SubMorphs
+
+Suffix --> SubMorphs $$$
+Suffix --> $$$
+
+1 1 SubMorphs --> SubMorph SubMorphs
+1 1 SubMorphs --> SubMorph
+SubMorph --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars

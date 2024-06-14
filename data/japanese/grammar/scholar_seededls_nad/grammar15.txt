@@ -1,0 +1,112 @@
+1 1 Word --> ^^^ StemMorphsSuffixMorphs $$$
+1 1 Word --> ^^^ PrefixMorph StemMorphsSuffixMorphs $$$
+StemMorphsSuffixMorphs --> StemMorphs
+StemMorphsSuffixMorphs --> StemMorphs SuffixMorphs
+1 1 StemMorphs --> StemMorph
+1 1 StemMorphs --> StemMorph StemMorphs
+1 1 SuffixMorphs --> SuffixMorph
+1 1 SuffixMorphs --> SuffixMorph SuffixMorphs
+PrefixMorph --> Char
+PrefixMorph --> Char Char
+PrefixMorph --> fffe4630 fffe6130
+PrefixMorph --> fffe4a30
+PrefixMorph --> fffe4a30 fffe9330
+PrefixMorph --> fffe5430
+PrefixMorph --> fffe7f30
+PrefixMorph --> fffe0d4e
+PrefixMorph --> fffeca4e
+PrefixMorph --> fffe8651
+PrefixMorph --> fffe8d51
+PrefixMorph --> fffe2552
+PrefixMorph --> fffe4d52
+PrefixMorph --> fffe0f5c
+PrefixMorph --> fffe735e
+PrefixMorph --> fffee265
+PrefixMorph --> fffee765
+PrefixMorph --> fffe2a67
+PrefixMorph --> fffed46b
+PrefixMorph --> fffe346c
+PrefixMorph --> fffe4772
+PrefixMorph --> fffe1f75
+PrefixMorph --> fffe2c7b
+PrefixMorph --> fffe047d
+PrefixMorph --> fffe5e97
+StemMorph --> SubMorphs
+SuffixMorph --> SubMorphs
+SuffixMorph --> fffe4b30
+SuffixMorph --> fffe4c30
+SuffixMorph --> fffead30 fffeed30
+SuffixMorph --> fffe5530
+SuffixMorph --> fffe5530 fffe9330
+SuffixMorph --> fffe5f30 fffe6130
+SuffixMorph --> fffe5f30 fffe9330
+SuffixMorph --> fffe6130 fffe8330 fffe7e30
+SuffixMorph --> fffe6130 fffe8330 fffe9330
+SuffixMorph --> fffe6630
+SuffixMorph --> fffe6730
+SuffixMorph --> fffe6830
+SuffixMorph --> fffe6b30
+SuffixMorph --> fffe6e30
+SuffixMorph --> fffe7f30
+SuffixMorph --> fffe8430 fffe8d30 fffe4630
+SuffixMorph --> fffe8930
+SuffixMorph --> fffeba4e
+SuffixMorph --> fffecf4e
+SuffixMorph --> fffed84e fffe5130 fffe8b30
+SuffixMorph --> fffee34e
+SuffixMorph --> fffe8b4f
+SuffixMorph --> fffebf4f
+SuffixMorph --> fffe4851
+SuffixMorph --> fffe4851 fffe1f75
+SuffixMorph --> fffe5a51
+SuffixMorph --> fffe7551
+SuffixMorph --> fffe8651
+SuffixMorph --> fffefa51 fffe5930
+SuffixMorph --> fffe0752
+SuffixMorph --> fffe2552
+SuffixMorph --> fffe4d52
+SuffixMorph --> fffe1653
+SuffixMorph --> fffef053
+SuffixMorph --> fffe1b54
+SuffixMorph --> fffede56
+SuffixMorph --> fffe4a57
+SuffixMorph --> fffef058
+SuffixMorph --> fffe7459
+SuffixMorph --> fffeb65b fffe4351
+SuffixMorph --> fffedd5d
+SuffixMorph --> fffe735e
+SuffixMorph --> fffe745e
+SuffixMorph --> fffea65e
+SuffixMorph --> fffec35f
+SuffixMorph --> fffeb064
+SuffixMorph --> fffee565
+SuffixMorph --> fffe2c67
+SuffixMorph --> fffed367
+SuffixMorph --> fffe1368
+SuffixMorph --> fffed869
+SuffixMorph --> fffed46b
+SuffixMorph --> fffe0f6c
+SuffixMorph --> fffec96c
+SuffixMorph --> fffe4772
+SuffixMorph --> fffe1f75
+SuffixMorph --> fffeee76
+SuffixMorph --> fffe3e79
+SuffixMorph --> fffee87d
+SuffixMorph --> fffe718a
+SuffixMorph --> fffeba8f
+SuffixMorph --> fffe5490
+SuffixMorph --> fffe7890
+SuffixMorph --> fffe6297
+SuffixMorph --> fffe0698
+1 1 SubMorphs --> J_SubMorph SubMorphs
+1 1 SubMorphs --> J_SubMorph
+1 1 SubMorphs --> Ch_SubMorph SubMorphs
+1 1 SubMorphs --> Ch_SubMorph
+J_SubMorph --> J_Chars
+Ch_SubMorph --> Ch_Chars
+Char --> J_Char
+Char --> Ch_Char
+1 1 J_Chars --> J_Char
+1 1 J_Chars --> J_Char J_Chars
+1 1 Ch_Chars --> Ch_Char
+1 1 Ch_Chars --> Ch_Char Ch_Chars

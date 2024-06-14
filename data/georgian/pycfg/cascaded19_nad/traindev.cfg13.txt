@@ -1,0 +1,82 @@
+1 1 Word --> ^^^ Morphs $$$
+1 1 Morphs --> Morph Morphs
+1 1 Morphs --> Morph
+Morph --> SubMorphs
+1 1 SubMorphs --> SubMorph SubMorphs
+1 1 SubMorphs --> SubMorph
+SubMorph --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars
+PrefixMorph --> fffee110 fffed010
+PrefixMorph --> fffed310 fffed010
+PrefixMorph --> fffed010
+PrefixMorph --> fffedb10 fffedd10
+PrefixMorph --> fffed210 fffed010
+PrefixMorph --> fffee810 fffed410
+PrefixMorph --> fffee310
+PrefixMorph --> fffed810
+PrefixMorph --> fffedc10 fffed010
+PrefixMorph --> fffedb10
+PrefixMorph --> fffed410
+PrefixMorph --> fffedb10 fffed810
+PrefixMorph --> fffee110 fffed810
+PrefixMorph --> fffedb10 fffed410
+PrefixMorph --> fffed210 fffed010 fffedb10 fffedd10
+PrefixMorph --> fffedb10 fffed010
+SuffixMorph --> fffed810 fffee110
+SuffixMorph --> fffed810
+SuffixMorph --> fffed010
+SuffixMorph --> fffee110
+SuffixMorph --> fffed410 fffed110 fffed810 fffee110
+SuffixMorph --> fffed410 fffed110 fffed810
+SuffixMorph --> fffed010 fffee110
+SuffixMorph --> fffedd10
+SuffixMorph --> fffed410 fffed110 fffee110
+SuffixMorph --> fffed810 fffed710
+SuffixMorph --> fffee810 fffed810
+SuffixMorph --> fffedb10 fffed010
+SuffixMorph --> fffed010 fffed310
+SuffixMorph --> fffed810 fffed010
+SuffixMorph --> fffed410 fffee110
+SuffixMorph --> fffee310 fffeda10 fffed810
+SuffixMorph --> fffee310 fffee010 fffed810
+SuffixMorph --> fffed010 fffee810 fffed810
+SuffixMorph --> fffed410 fffed110 fffed010
+SuffixMorph --> fffed310 fffed010
+SuffixMorph --> fffed610 fffed410
+SuffixMorph --> fffed810 fffee110 fffed010
+SuffixMorph --> fffed410
+SuffixMorph --> fffed810 fffed310 fffed010 fffedc10
+1 1 Char --> fffed010
+1 1 Char --> fffed110
+1 1 Char --> fffed210
+1 1 Char --> fffed310
+1 1 Char --> fffed410
+1 1 Char --> fffed510
+1 1 Char --> fffed610
+1 1 Char --> fffed710
+1 1 Char --> fffed810
+1 1 Char --> fffed910
+1 1 Char --> fffeda10
+1 1 Char --> fffedb10
+1 1 Char --> fffedc10
+1 1 Char --> fffedd10
+1 1 Char --> fffede10
+1 1 Char --> fffedf10
+1 1 Char --> fffee010
+1 1 Char --> fffee110
+1 1 Char --> fffee210
+1 1 Char --> fffee310
+1 1 Char --> fffee410
+1 1 Char --> fffee510
+1 1 Char --> fffee610
+1 1 Char --> fffee710
+1 1 Char --> fffee810
+1 1 Char --> fffee910
+1 1 Char --> fffeea10
+1 1 Char --> fffeeb10
+1 1 Char --> fffeec10
+1 1 Char --> fffeed10
+1 1 Char --> fffeee10
+1 1 Char --> fffeef10
+1 1 Char --> fffef010

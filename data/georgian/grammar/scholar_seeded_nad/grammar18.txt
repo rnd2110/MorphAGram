@@ -1,0 +1,39 @@
+1 1 Word --> ^^^ StemPrefixMorphs $$$
+1 1 Word --> ^^^ StemPrefixMorphs SuffixMorphs $$$
+StemPrefixMorphs --> Stem
+StemPrefixMorphs --> PrefixMorphs Stem
+1 1 PrefixMorphs --> PrefixMorph
+1 1 PrefixMorphs --> PrefixMorph PrefixMorphs
+1 1 SuffixMorphs --> SuffixMorph
+1 1 SuffixMorphs --> SuffixMorph SuffixMorphs
+Stem --> SubMorphs
+PrefixMorph --> SubMorphs
+PrefixMorph --> fffed010 fffed010 fffedb10 fffedd10
+PrefixMorph --> fffed010 fffee010 fffed010
+PrefixMorph --> fffed710 fffed010 fffedc10
+PrefixMorph --> fffed910 fffed510 fffed010 fffed610 fffed810
+PrefixMorph --> fffee110 fffed010
+PrefixMorph --> fffee410 fffee110 fffed410 fffed510 fffed310 fffedd10
+PrefixMorph --> fffee510 fffed510 fffed410
+PrefixMorph --> fffeec10 fffed010 fffee010
+PrefixMorph --> fffeec10 fffed010 fffee010 fffedb10 fffedd10
+SuffixMorph --> SubMorphs
+SuffixMorph --> fffed010 fffed010 fffed310
+SuffixMorph --> fffed410 fffed110
+SuffixMorph --> fffed410 fffed110 fffed010
+SuffixMorph --> fffed810
+SuffixMorph --> fffed810 fffed010 fffedc10
+SuffixMorph --> fffed810 fffed010 fffedc10 fffed810
+SuffixMorph --> fffed810 fffee110
+SuffixMorph --> fffeda10 fffedd10 fffed210 fffed810 fffed010
+SuffixMorph --> fffedb10 fffed310 fffed810 fffee110
+SuffixMorph --> fffedd10
+SuffixMorph --> fffedd10 fffed110 fffed010
+SuffixMorph --> fffedd10 fffed310 fffed410
+SuffixMorph --> fffee410 fffed410 fffee010 fffed810
+SuffixMorph --> fffee810 fffed510 fffed810 fffeda10 fffed810
+1 1 SubMorphs --> SubMorph SubMorphs
+1 1 SubMorphs --> SubMorph
+SubMorph --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars

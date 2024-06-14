@@ -1,0 +1,9 @@
+1 1 Word --> ^^^ Stem $$$
+1 1 Stem --> Prefix Stem Suffix
+
+Stem --> Chars
+Prefix --> Chars
+Suffix --> Chars
+
+1 1 Chars --> Char Chars
+1 1 Chars --> Char

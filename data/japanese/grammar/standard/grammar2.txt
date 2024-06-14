@@ -1,0 +1,24 @@
+1 1 Word --> ^^^ Compounds $$$
+1 1 Compounds --> Compound Compounds
+1 1 Compounds --> Compound
+
+Compound --> PrefixMorphs
+Compound --> Stem
+Compound --> SuffixMorphs
+
+1 1 PrefixMorphs --> PrefixMorph
+1 1 PrefixMorphs --> PrefixMorph PrefixMorphs
+PrefixMorph --> SubMorphs
+
+Stem --> SubMorphs
+
+1 1 SuffixMorphs --> SuffixMorph
+1 1 SuffixMorphs --> SuffixMorph SuffixMorphs
+SuffixMorph --> SubMorphs
+
+1 1 SubMorphs --> SubMorph SubMorphs
+1 1 SubMorphs --> SubMorph
+
+SubMorph --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars

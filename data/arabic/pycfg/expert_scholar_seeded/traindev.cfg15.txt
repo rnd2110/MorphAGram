@@ -1,0 +1,85 @@
+1 1 Word --> ^^^ StemSuffixMorphs $$$
+1 1 Word --> ^^^ PrefixMorphs StemSuffixMorphs $$$
+StemSuffixMorphs --> Stem
+StemSuffixMorphs --> Stem SuffixMorphs
+1 1 PrefixMorphs --> PrefixMorph
+1 1 PrefixMorphs --> PrefixMorph PrefixMorphs
+1 1 SuffixMorphs --> SuffixMorph
+1 1 SuffixMorphs --> SuffixMorph SuffixMorphs
+Stem --> SubMorphs
+PrefixMorph --> SubMorphs
+SuffixMorph --> SubMorphs
+1 1 SubMorphs --> SubMorph SubMorphs
+1 1 SubMorphs --> SubMorph
+SubMorph --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars
+1 1 PrefixMorph --> fffe3e00
+1 1 PrefixMorph --> fffe4100 fffe6c00
+1 1 PrefixMorph --> fffe6200
+1 1 PrefixMorph --> fffe6600
+1 1 PrefixMorph --> fffe6b00
+1 1 PrefixMorph --> fffe6c00
+1 1 PrefixMorph --> fffe6e00
+1 1 PrefixMorph --> fffe7300
+1 1 PrefixMorph --> fffe7400
+1 1 PrefixMorph --> fffe7700
+1 1 PrefixMorph --> fffe7900
+1 1 SuffixMorph --> fffe4100
+1 1 SuffixMorph --> fffe4100 fffe7400
+1 1 SuffixMorph --> fffe6800
+1 1 SuffixMorph --> fffe6800 fffe4100
+1 1 SuffixMorph --> fffe6800 fffe6d00
+1 1 SuffixMorph --> fffe6800 fffe6d00 fffe4100
+1 1 SuffixMorph --> fffe6800 fffe6e00
+1 1 SuffixMorph --> fffe6b00
+1 1 SuffixMorph --> fffe6b00 fffe6d00
+1 1 SuffixMorph --> fffe6b00 fffe6d00 fffe4100
+1 1 SuffixMorph --> fffe6b00 fffe6e00
+1 1 SuffixMorph --> fffe6e00
+1 1 SuffixMorph --> fffe6e00 fffe4100
+1 1 SuffixMorph --> fffe6e00 fffe7900
+1 1 SuffixMorph --> fffe7000
+1 1 SuffixMorph --> fffe7400
+1 1 SuffixMorph --> fffe7400 fffe6d00
+1 1 SuffixMorph --> fffe7400 fffe6e00
+1 1 SuffixMorph --> fffe7700 fffe4100
+1 1 SuffixMorph --> fffe7700 fffe6e00
+1 1 SuffixMorph --> fffe7900
+1 1 SuffixMorph --> fffe7900 fffe6e00
+1 1 Char --> fffe7a00
+1 1 Char --> fffe6600
+1 1 Char --> fffe6d00
+1 1 Char --> fffe6700
+1 1 Char --> fffe6b00
+1 1 Char --> fffe4100
+1 1 Char --> fffe4400
+1 1 Char --> fffe2a00
+1 1 Char --> fffe6400
+1 1 Char --> fffe7700
+1 1 Char --> fffe6e00
+1 1 Char --> fffe7800
+1 1 Char --> fffe6200
+1 1 Char --> fffe6800
+1 1 Char --> fffe3e00
+1 1 Char --> fffe7200
+1 1 Char --> fffe7300
+1 1 Char --> fffe7c00
+1 1 Char --> fffe5900
+1 1 Char --> fffe5300
+1 1 Char --> fffe2400
+1 1 Char --> fffe4800
+1 1 Char --> fffe5a00
+1 1 Char --> fffe7400
+1 1 Char --> fffe7000
+1 1 Char --> fffe6a00
+1 1 Char --> fffe6c00
+1 1 Char --> fffe7100
+1 1 Char --> fffe3c00
+1 1 Char --> fffe7900
+1 1 Char --> fffe7d00
+1 1 Char --> fffe5400
+1 1 Char --> fffe2600
+1 1 Char --> fffe4500
+1 1 Char --> fffe7600
+1 1 Char --> fffe2700
