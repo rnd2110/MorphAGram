@@ -1,1 +1,0 @@
-cat data$1.txt | ./py-cfg -A output/output$1.txt -r 0 -d 10 -x 10 -F output/trace$1.txt -G output/grammar$1.txt -D -E -e 1 -f 1 -g 10 -h 0.1 -w 1 -T 1 -m 0 -n 500 -R -1 cfg$1.txt

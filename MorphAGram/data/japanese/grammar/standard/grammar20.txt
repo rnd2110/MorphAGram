@@ -1,8 +1,0 @@
-1 1 Word --> ^^^ M1 $$$
-1 1 Word --> ^^^ M1 M2 $$$
-
-M1 --> Chars
-M2 --> Chars
-
-1 1 Chars --> Char
-1 1 Chars --> Char Chars
