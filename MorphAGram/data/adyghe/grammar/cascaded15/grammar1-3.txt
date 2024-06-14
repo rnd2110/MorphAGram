@@ -1,0 +1,57 @@
+1 1 Word --> Prefix Stem Suffix
+Prefix --> ^^^
+Prefix --> ^^^ PrefixMorphs
+1 1 PrefixMorphs --> PrefixMorph PrefixMorphs
+1 1 PrefixMorphs --> PrefixMorph
+PrefixMorph --> SubMorphs
+PrefixMorph --> fffe3704 fffe4b04
+PrefixMorph --> fffe3804
+PrefixMorph --> fffe3a04 fffe4a04 fffe4b04
+PrefixMorph --> fffe3704 fffe4d04
+PrefixMorph --> fffe3704 fffe3804
+PrefixMorph --> fffe3704 fffe4d04 fffe4004 fffe3804
+PrefixMorph --> fffe3704 fffe4b04 fffe4904 fffe4b04
+PrefixMorph --> fffe4304
+PrefixMorph --> fffe3004
+PrefixMorph --> fffe3704 fffe4d04 fffe4004 fffe4d04
+PrefixMorph --> fffe4204 fffe3804
+PrefixMorph --> fffe4104 fffe3804
+PrefixMorph --> fffe4f04
+PrefixMorph --> fffe3704 fffe4d04 fffe4004 fffe3004
+PrefixMorph --> fffe4804 fffe4a04 fffe4304
+PrefixMorph --> fffe4204 fffe4b04
+PrefixMorph --> fffe4204 fffe3504
+PrefixMorph --> fffe3a04 fffe4a04 fffe4b04 fffe3704 fffe4d04 fffe4004 fffe3804
+PrefixMorph --> fffe3a04 fffe4a04 fffe4b04 fffe3704 fffe4b04
+PrefixMorph --> fffe4304 fffe3804
+Stem --> SubMorphs
+Suffix --> $$$
+Suffix --> SuffixMorphs $$$
+1 1 SuffixMorphs --> SuffixMorph SuffixMorphs
+1 1 SuffixMorphs --> SuffixMorph
+SuffixMorph --> SubMorphs
+SuffixMorph --> fffe4004 fffe4d04
+SuffixMorph --> fffe3c04 fffe4d04
+SuffixMorph --> fffe3d04
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04 fffe4004
+SuffixMorph --> fffe3a04 fffecf04 fffe4d04
+SuffixMorph --> fffe3304 fffe4a04
+SuffixMorph --> fffe4504
+SuffixMorph --> fffe4904 fffe4204
+SuffixMorph --> fffe3d04 fffe4d04 fffe4304
+SuffixMorph --> fffe3c04 fffe3804
+SuffixMorph --> fffe4004 fffe4d04 fffe4004
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04 fffe3c04
+SuffixMorph --> fffe3804
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04 fffe3c04 fffe4d04
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04 fffe4504 fffe4d04 fffe4004
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04 fffe4304
+SuffixMorph --> fffe4004 fffe3804
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04 fffe3c04 fffe3804
+SuffixMorph --> fffe4004 fffe4d04 fffe3c04
+1 1 SubMorphs --> SubMorph SubMorphs
+1 1 SubMorphs --> SubMorph
+SubMorph --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars

@@ -1,0 +1,98 @@
+1 1 Word --> ^^^ StemSuffixMorphs $$$
+1 1 Word --> ^^^ PrefixMorphs StemSuffixMorphs $$$
+StemSuffixMorphs --> Stem
+StemSuffixMorphs --> Stem SuffixMorphs
+1 1 PrefixMorphs --> PrefixMorph
+1 1 PrefixMorphs --> PrefixMorph PrefixMorphs
+1 1 SuffixMorphs --> SuffixMorph
+1 1 SuffixMorphs --> SuffixMorph SuffixMorphs
+Stem --> SubMorphs
+PrefixMorph --> SubMorphs
+PrefixMorph --> fffe3304 fffe4a04 fffe4d04
+PrefixMorph --> fffe3a04 fffe4a04 fffe4b04
+PrefixMorph --> fffe4d04
+PrefixMorph --> fffe4904 fffe4b04
+PrefixMorph --> fffe3804
+PrefixMorph --> fffe3004
+PrefixMorph --> fffe3804
+PrefixMorph --> fffe3804
+PrefixMorph --> fffe4504 fffe4d04
+PrefixMorph --> fffe3704 fffe4d04
+PrefixMorph --> fffe3004
+PrefixMorph --> fffe4504
+PrefixMorph --> fffe3704 fffe4d04
+PrefixMorph --> fffe3504
+PrefixMorph --> fffe3a04 fffe4a04
+PrefixMorph --> fffe4404 fffe4d04
+PrefixMorph --> fffe4d04
+PrefixMorph --> fffe4004
+PrefixMorph --> fffe3704
+PrefixMorph --> fffe3704 fffe4b04
+PrefixMorph --> fffe3004
+PrefixMorph --> fffe3c04 fffe4b04
+PrefixMorph --> fffe4204 fffe3504
+PrefixMorph --> fffe3704 fffe4b04
+PrefixMorph --> fffe3904
+PrefixMorph --> fffe3004
+PrefixMorph --> fffe4404
+PrefixMorph --> fffe3704 fffe4b04
+PrefixMorph --> fffe3904
+PrefixMorph --> fffe4b04
+PrefixMorph --> fffe3704 fffe4d04 fffe4004 fffe4d04
+PrefixMorph --> fffe3404 fffe4d04
+PrefixMorph --> fffe4904
+PrefixMorph --> fffe4004
+PrefixMorph --> fffe3704 fffe4b04
+PrefixMorph --> fffe3704
+PrefixMorph --> fffe3704 fffe4d04 fffe4004
+PrefixMorph --> fffe3904
+PrefixMorph --> fffe4204
+PrefixMorph --> fffe3704 fffe4b04
+PrefixMorph --> fffe4204
+PrefixMorph --> fffe3404
+PrefixMorph --> fffe3a04 fffe4a04 fffe4d04
+PrefixMorph --> fffe4804 fffecf04 fffe3e04
+PrefixMorph --> fffe3904
+PrefixMorph --> fffe4b04
+PrefixMorph --> fffe3f04
+PrefixMorph --> fffe3704 fffe4d04
+PrefixMorph --> fffe4204
+PrefixMorph --> fffe4304
+PrefixMorph --> fffe4204 fffe4b04
+PrefixMorph --> fffe3a04 fffecf04 fffe4d04
+PrefixMorph --> fffe4004 fffe4b04
+SuffixMorph --> SubMorphs
+SuffixMorph --> fffe3c04
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04
+SuffixMorph --> fffe4004
+SuffixMorph --> fffe4504 fffe4d04
+SuffixMorph --> fffe4d04 fffe4304
+SuffixMorph --> fffe3304 fffe4a04
+SuffixMorph --> fffe3804
+SuffixMorph --> fffe3d04
+SuffixMorph --> fffe4004 fffe4d04
+SuffixMorph --> fffe4504
+SuffixMorph --> fffe3a04 fffecf04 fffe4d04
+SuffixMorph --> fffe3d04 fffe4b04
+SuffixMorph --> fffe3604 fffe4c04 fffe4b04
+SuffixMorph --> fffe4004 fffe4d04
+SuffixMorph --> fffe4904 fffe4204
+SuffixMorph --> fffe4304
+SuffixMorph --> fffe3c04 fffe4d04
+SuffixMorph --> fffe4d04 fffe3f04
+SuffixMorph --> fffe3304 fffe4a04 fffe4d04
+SuffixMorph --> fffe3c04 fffe4d04
+SuffixMorph --> fffe3f04 fffecf04 fffe4d04
+SuffixMorph --> fffe4004 fffe3804
+SuffixMorph --> fffe3a04 fffecf04 fffe4b04
+SuffixMorph --> fffe4904 fffe4204 fffe4b04
+SuffixMorph --> fffe4904
+SuffixMorph --> fffe4904 fffe4204 fffe4b04
+SuffixMorph --> fffe3a04 fffecf04 fffe4d04
+SuffixMorph --> fffe3304 fffe4a04 fffe3e04
+SuffixMorph --> fffe3304 fffe4a04 fffe3004
+1 1 SubMorphs --> SubMorph SubMorphs
+1 1 SubMorphs --> SubMorph
+SubMorph --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars

@@ -1,0 +1,13 @@
+1 1 Word --> ^^^ StemSuffixes $$$
+1 1 Word --> ^^^ Prefixes StemSuffixes $$$
+StemSuffixes --> Stem
+StemSuffixes --> Stem Suffixes
+1 1 Prefixes --> Prefix
+1 1 Prefixes --> Prefix Prefixes
+1 1 Suffixes --> Suffix
+1 1 Suffixes --> Suffix Suffixes
+Stem --> Chars
+Prefix --> Chars
+Suffix --> Chars
+1 1 Chars --> Char
+1 1 Chars --> Char Chars
